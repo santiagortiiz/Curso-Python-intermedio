@@ -1,0 +1,6 @@
+py -m venv nombre_virtual_env	# Creacion del entorno virtual (-m: modulo) (venv: virtual environment)
+.\venv\Scripts\activate		# Activacion del entorno virtual
+deactivate			# Desactiva el entorno virtual
+pip freeze			# Ver los modulos instalados en el venv
+pip freeze > requirements.txt	# Genera el archivo de dependencias (Similar al package.json)
+pip install -r requirements.txt	# Permite instalar las dependencias de un proyecto
